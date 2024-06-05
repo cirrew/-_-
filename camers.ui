@@ -203,8 +203,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Добавить новый элемент
-из C:/data/new_el</string>
+     <string>Добавить новый элемент</string>
     </property>
    </widget>
    <widget class="QPushButton" name="del_el_from_l">

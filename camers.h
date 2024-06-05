@@ -5,6 +5,7 @@
 #include <QMainWindow>
 #include <QListWidget>
 #include <QTextStream>
+#include <QInputDialog>
 #include <vector>
 QT_BEGIN_NAMESPACE
 namespace Ui { class camers; }
@@ -24,10 +25,10 @@ public:
     {
         specie="";
         cam_num=0;
-        vent_status=0;
+        vent_status=100;
         age=0;
-        food=0;
-        clear_status=0;
+        food=100;
+        clear_status=100;
     }
     birds(QString s, int a, int c, int v, int f, int cl)
     {
